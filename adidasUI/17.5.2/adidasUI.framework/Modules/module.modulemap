@@ -1,0 +1,11 @@
+framework module adidasUI {
+  umbrella header "adidasUI.h"
+
+  export *
+  module * { export * }
+}
+
+module adidasUI.Swift {
+    header "adidasUI-Swift.h"
+    requires objc
+}
